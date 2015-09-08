@@ -67,6 +67,18 @@ Use the following import:
     #define HC_SHORTHAND
     #import <OCHamcrest/OCHamcrest.h>
 
+### Carthage
+
+Add the following to your Cartfile:
+
+```
+github "jonreid/OCMockito"
+```
+
+Then proceed by dragging the the built frameworks from the appropriate
+Carthage/Build/ directory as described above, but with "Copy items into
+destination group's folder" disabled.
+
 ### Build Your Own
 
 If you want to build OCHamcrest yourself, clone the repo, then
